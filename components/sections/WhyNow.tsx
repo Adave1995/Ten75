@@ -77,7 +77,7 @@ export default function WhyNow() {
                 <h3 className="text-lg font-semibold text-white leading-snug">
                   {item.title}
                 </h3>
-                <p className="text-sm text-zinc-500 leading-relaxed">
+                <p className="text-sm text-zinc-400 leading-relaxed">
                   {item.body}
                 </p>
               </div>
