@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { List, X } from "@phosphor-icons/react";
+import { track } from "@vercel/analytics";
 import Button from "@/components/ui/Button";
 
 const navLinks = [
@@ -62,6 +63,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors duration-150"
+                  onClick={() => track("nav_clicked", { label: link.label, location: "desktop_nav" })}
                 >
                   {link.label}
                 </Link>
@@ -70,7 +72,7 @@ export default function Header() {
 
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center">
-              <Button href="/contact" size="sm" showArrow>
+              <Button href="/contact" size="sm" showArrow onClick={() => track("book_assessment_clicked", { location: "desktop_nav" })}>
                 Book Assessment
               </Button>
             </div>
@@ -119,7 +121,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   className="text-xl font-medium text-zinc-800 hover:text-amber-600 py-3 border-b border-zinc-100 transition-colors"
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); track("nav_clicked", { label: link.label, location: "mobile_nav" }); }}
                 >
                   {link.label}
                 </Link>
@@ -131,7 +133,7 @@ export default function Header() {
                 size="lg"
                 className="w-full justify-center"
                 showArrow
-                onClick={() => setMenuOpen(false)}
+                onClick={() => { setMenuOpen(false); track("book_assessment_clicked", { location: "mobile_nav" }); }}
               >
                 Book Assessment
               </Button>

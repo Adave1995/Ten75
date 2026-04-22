@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import SectionLabel from "@/components/ui/SectionLabel";
 import Button from "@/components/ui/Button";
 import { Envelope, MapPin } from "@phosphor-icons/react";
@@ -83,6 +84,7 @@ export default function ContactPage() {
     // TODO: Connect to form handling / CRM (e.g., HubSpot, Formspree, custom API route)
     // await fetch('/api/contact', { method: 'POST', body: JSON.stringify(form) })
     await new Promise((r) => setTimeout(r, 800)); // Simulated delay
+    track("send_message_submitted", { role: form.role || "not_specified" });
     setSubmitting(false);
     setSubmitted(true);
   }
