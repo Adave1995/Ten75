@@ -33,8 +33,8 @@ const steps = [
     number: "04",
     icon: TrendUp,
     title: "Optimize",
-    body: "AI is not a one-time project. I stay on as your fractional CAIO — measuring results, tuning performance, and identifying the next layer of implementation.",
-    detail: "Ongoing. You pay as a % of revenue gained or saved.",
+    body: "AI is not a one-time project. I stay on as your embedded AI partner — measuring results, tuning performance, and identifying the next layer of implementation.",
+    detail: "Ongoing. Your AI stack compounds in value with every layer we add.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function HowWeWork() {
           <div className="space-y-4">
             <SectionLabel>The Process</SectionLabel>
             <h2 className="display-md text-zinc-900">
-              No retainer.
+              Clear process.
               <br />
               <span className="text-zinc-400">No guesswork.</span>
             </h2>
@@ -59,12 +59,12 @@ export default function HowWeWork() {
           <div className="lg:ml-auto lg:max-w-sm">
             <div className="bg-amber-50 border border-amber-100 rounded-2xl p-5 space-y-1">
               <p className="text-sm font-semibold text-amber-800">
-                The Ten75 Pricing Model
+                The Ten75 Engagement Model
               </p>
               <p className="text-sm text-amber-700 leading-relaxed">
-                You pay as a percentage of documented revenue gained or
-                operational cost saved due to AI implementation. No hidden
-                fees. No hourly billing.
+                We work as an embedded AI partner — not a one-time vendor.
+                Our engagements are built to compound value month over month
+                as your operation grows and matures.
               </p>
             </div>
           </div>

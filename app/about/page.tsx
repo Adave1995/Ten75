@@ -22,7 +22,7 @@ const values = [
   },
   {
     title: "Aligned incentives",
-    body: "We charge as a percentage of documented revenue gained or costs saved. If the AI doesn't move the needle, we don't get paid. That alignment keeps us accountable.",
+    body: "We're not a vendor you pay and forget. We're embedded in your operation, and our reputation is built entirely on what actually changes in your business.",
   },
   {
     title: "No unnecessary complexity",
@@ -66,7 +66,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <SectionLabel>The Model</SectionLabel>
               <h2 className="display-md text-zinc-900">
-                Fractional Chief AI Officer
+                Dedicated AI Partner
                 <br />
                 <span className="text-zinc-400">for propane companies.</span>
               </h2>
@@ -78,15 +78,15 @@ export default function AboutPage() {
                   within their business.
                 </p>
                 <p className="body-base">
-                  That's what Ten75.ai provides. A fractional CAIO who comes
-                  in, maps your operation, identifies where AI can deliver
+                  That's what Ten75.ai provides. An embedded AI partner who
+                  comes in, maps your operation, identifies where AI can deliver
                   measurable value, builds it, and stays to optimize results.
                 </p>
                 <p className="body-base">
-                  You don't pay a retainer. You don't buy hours. You pay a
-                  percentage of the revenue gained or operational cost saved
-                  that we can directly attribute to AI implementation. That
-                  structure keeps incentives perfectly aligned.
+                  What you get is a dedicated partner with deep domain
+                  expertise — not a generalist with a template. The engagement
+                  is structured to deliver compounding value, and the
+                  investment reflects the kind of edge it creates.
                 </p>
               </div>
             </div>
@@ -105,10 +105,10 @@ export default function AboutPage() {
                   ],
                 },
                 {
-                  label: "What you don't pay for",
+                  label: "What you won't deal with",
                   points: [
-                    "Monthly retainers",
-                    "Hourly consulting fees",
+                    "Generalist consultants learning your industry",
+                    "Unnecessary complexity for its own sake",
                     "Bloated implementation teams",
                     "Generic AI platforms that need customization",
                     "Work that doesn't produce measurable results",

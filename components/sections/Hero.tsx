@@ -75,7 +75,7 @@ export default function Hero() {
 
             <div className="animate-fade-up stagger-3">
               <p className="text-lg md:text-xl text-zinc-500 leading-relaxed max-w-[52ch]">
-                Ten75.ai is the fractional Chief AI Officer for propane
+                Ten75.ai is the dedicated AI implementation partner for propane
                 distributors and fuel companies — embedding practical AI into
                 dispatch, customer service, quoting, and operations. Without
                 the buzzwords.
@@ -97,9 +97,9 @@ export default function Hero() {
             {/* Trust signal */}
             <div className="animate-fade-up stagger-5">
               <p className="text-sm text-zinc-400 tracking-tight">
-                No retainer. No generic playbooks.{" "}
+                Propane-specific expertise. Embedded implementation.{" "}
                 <span className="text-zinc-600 font-medium">
-                  You pay as a % of revenue gained or saved.
+                  An edge that compounds.
                 </span>
               </p>
             </div>

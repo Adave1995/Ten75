@@ -11,7 +11,7 @@ import FinalCTA from "@/components/sections/FinalCTA";
 export const metadata: Metadata = {
   title: "Ten75.ai — AI Built for Propane Companies",
   description:
-    "Ten75.ai is the fractional Chief AI Officer for propane distributors and fuel companies. Practical AI implementation for dispatch, customer service, quoting, and operations.",
+    "Ten75.ai is the dedicated AI implementation partner for propane distributors and fuel companies. Practical AI for dispatch, customer service, quoting, and operations.",
   alternates: {
     canonical: "https://ten75.ai",
   },
